@@ -2,316 +2,166 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Arvind Kumar Bharti | GR Telecom Services</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ProgrammerKR/ProXtyle@main/dist/css/ProXtyle.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <style>
-    body {
-      font-family: "Segoe UI", sans-serif;
-      background-color: #f8f9fa;
-    }
-    .navbar {
-      background-color: #004aad;
-    }
-    .navbar a {
-      color: white;
-      font-weight: 500;
-    }
     .hero {
-      background: linear-gradient(135deg, #004aad, #00bfff);
+      background: linear-gradient(to right, #004aad, #00bfff);
       color: white;
-      padding: 4rem 2rem;
+      padding: 5rem 1rem;
       text-align: center;
     }
     .section-title {
-      font-size: 2rem;
-      font-weight: 700;
-      margin-bottom: 1.5rem;
       color: #004aad;
-    }
-    .card {
-      background: #ffffff;
-      border-radius: 8px;
-      padding: 2rem;
-      margin-bottom: 2rem;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      margin-bottom: 1.5rem;
+      font-weight: 700;
     }
     footer {
-      background: #111;
-      color: #aaa;
-      text-align: center;
+      background: #222;
+      color: #ccc;
       padding: 2rem 1rem;
-      font-size: 0.9rem;
+      text-align: center;
     }
   </style>
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar px-4 py-3 d-flex justify-between align-center">
-    <div class="text-white fw-bold">GR Telecom Services</div>
-    <ul class="d-flex gap-3 list-none">
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#vision">Vision</a></li>
-      <li><a href="#journey">Journey</a></li>
-      <li><a href="#testimonials">Testimonials</a></li>
-      <li><a href="#faq">FAQ</a></li>
-      <li><a href="#contact">Contact</a></li>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="#">GR Telecom Services</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#vision">Vision</a></li>
+        <li class="nav-item"><a class="nav-link" href="#journey">Journey</a></li>
+        <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <h1 class="display-4 fw-bold">Arvind Kumar Bharti</h1>
+  <p class="lead">Founder & CEO – GR Telecom Services</p>
+  <p>Jio POS Expert | SIM Activation Specialist | MNP Services – Lucknow</p>
+</section>
+
+<!-- About -->
+<section id="about" class="py-5 container">
+  <h2 class="section-title">About Me</h2>
+  <p>I am Arvind Kumar Bharti, a telecom service provider based in Lucknow. I manage a Jio POS with high-volume monthly transactions. I specialize in selling new Jio SIMs, handling mobile number portability (MNP), and activating services efficiently for customers.</p>
+</section>
+
+<!-- Services -->
+<section id="services" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title">Our Services</h2>
+    <ul class="list-group">
+      <li class="list-group-item">New Jio SIM Sales & Activation</li>
+      <li class="list-group-item">Mobile Number Portability (MNP)</li>
+      <li class="list-group-item">Digital KYC and Customer Support</li>
+      <li class="list-group-item">Recharge Assistance</li>
     </ul>
-  </nav>
+  </div>
+</section>
 
-  <!-- Hero -->
-  <section class="hero">
-    <h1 class="display-4 fw-bold">Arvind Kumar Bharti</h1>
-    <p class="lead mt-2">Founder & CEO – GR Telecom Services</p>
-    <p class="fs-5">Jio POS Specialist | SIM Activator | MNP Expert – Lucknow</p>
-  </section>
+<!-- Vision -->
+<section id="vision" class="py-5 container">
+  <h2 class="section-title">Our Vision & Mission</h2>
+  <p><strong>Vision:</strong> To become the most reliable telecom service provider in the region, beginning with Lucknow and expanding nationwide.</p>
+  <p><strong>Mission:</strong> To deliver quick, honest, and top-quality telecom services to every individual who walks into our stall.</p>
+</section>
 
-  <!-- About -->
-  <section id="about" class="container py-5">
-    <div class="card">
-      <h2 class="section-title">About Me</h2>
-      <p>I am Arvind Kumar Bharti, a dedicated telecom service provider from Lucknow. I run a Jio POS with lakhs of rupees in monthly transactions and specialize in SIM sales, activations, and mobile number portability (MNP). My goal is to serve customers with fast and efficient services.</p>
-    </div>
-  </section>
-
-  <!-- Services -->
-  <section id="services" class="container py-5">
-    <div class="card">
-      <h2 class="section-title">Our Services</h2>
-      <ul class="list-disc ms-4">
-        <li>New Jio SIM Sales & Activation</li>
-        <li>Mobile Number Portability (MNP)</li>
-        <li>Recharge & Customer Support</li>
-        <li>Digital KYC and Verification</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Vision and Mission -->
-  <section id="vision" class="container py-5">
-    <div class="card">
-      <h2 class="section-title">Our Vision & Mission</h2>
-      <p><strong>Vision:</strong> To become a trusted telecom service brand for every mobile user in India, starting from Lucknow.</p>
-      <p class="mt-2"><strong>Mission:</strong> Offer reliable, quick and friendly telecom services to support people’s communication needs affordably and professionally.</p>
-    </div>
-  </section>
-
-  <!-- Journey -->
-  <section id="journey" class="container py-5">
-    <div class="card">
-      <h2 class="section-title">Our Journey</h2>
-      <ul class="list-disc ms-4">
-        <li>2018 – Started local SIM sales in Lucknow</li>
-        <li>2019 – Partnered with Jio officially</li>
-        <li>2021 – Hit 10,000+ activations milestone</li>
-        <li>2024 – Launched GR Telecom Services brand</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Testimonials -->
-  <section id="testimonials" class="container py-5">
-    <div class="card">
-      <h2 class="section-title">What Our Customers Say</h2>
-      <blockquote>"Fast and smooth process. Very professional." – R. Singh</blockquote>
-      <blockquote>"Best service in our locality!" – K. Sharma</blockquote>
-      <blockquote>"Highly recommended for Jio MNP." – A. Verma</blockquote>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section id="faq" class="container py-5">
-    <div class="card">
-      <h2 class="section-title">Frequently Asked Questions</h2>
-      <p><strong>Q:</strong> What documents are needed for SIM activation?<br>
-      <strong>A:</strong> Aadhaar Card + Passport-size Photo.</p>
-      <p class="mt-3"><strong>Q:</strong> How long does the porting process take?<br>
-      <strong>A:</strong> Generally 2-3 days after verification.</p>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="container py-5">
-    <div class="card">
-      <h2 class="section-title">Contact Us</h2>
-      <p><strong>Phone:</strong> +91 XXXXX XXXXX</p>
-      <p><strong>Email:</strong> example@email.com</p>
-      <p><strong>Location:</strong> Near XYZ Chauraha, Lucknow, Uttar Pradesh</p>
-    </div>
-  </section>
-
-  <!-- Map -->
-  <section class="container py-5">
-    <div class="card">
-      <h2 class="section-title">Our Location</h2>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    &copy; 2025 GR Telecom Services | Site by ProgrammerKR using ProXtyle
-  </footer>
-
-</body>
-                                                            </html><!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Arvind Kumar Bharti | GR Telecom Services</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ProgrammerKR/ProXtyle/prox.css">
-  <style>
-    body {
-      font-family: "Segoe UI", sans-serif;
-      background-color: #f8f9fa;
-    }
-    .navbar {
-      background-color: #004aad;
-    }
-    .navbar a {
-      color: white;
-      font-weight: 500;
-    }
-    .hero {
-      background: linear-gradient(135deg, #004aad, #00bfff);
-      color: white;
-      padding: 4rem 2rem;
-      text-align: center;
-    }
-    .section-title {
-      font-size: 2rem;
-      font-weight: 700;
-      margin-bottom: 1.5rem;
-      color: #004aad;
-    }
-    .card {
-      background: #ffffff;
-      border-radius: 8px;
-      padding: 2rem;
-      margin-bottom: 2rem;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-    }
-    footer {
-      background: #111;
-      color: #aaa;
-      text-align: center;
-      padding: 2rem 1rem;
-      font-size: 0.9rem;
-    }
-  </style>
-</head>
-<body>
-
-  <!-- Navbar -->
-  <nav class="navbar px-4 py-3 d-flex justify-between align-center">
-    <div class="text-white fw-bold">GR Telecom Services</div>
-    <ul class="d-flex gap-3 list-none">
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#vision">Vision</a></li>
-      <li><a href="#journey">Journey</a></li>
-      <li><a href="#testimonials">Testimonials</a></li>
-      <li><a href="#faq">FAQ</a></li>
-      <li><a href="#contact">Contact</a></li>
+<!-- Journey -->
+<section id="journey" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title">Our Journey</h2>
+    <ul>
+      <li>2018 – Started SIM retail business in local markets.</li>
+      <li>2019 – Partnered officially with Jio as a POS vendor.</li>
+      <li>2021 – Reached over 10,000 successful activations.</li>
+      <li>2024 – Rebranded to GR Telecom Services.</li>
     </ul>
-  </nav>
+  </div>
+</section>
 
-  <!-- Hero -->
-  <section class="hero">
-    <h1 class="display-4 fw-bold">Arvind Kumar Bharti</h1>
-    <p class="lead mt-2">Founder & CEO – GR Telecom Services</p>
-    <p class="fs-5">Jio POS Specialist | SIM Activator | MNP Expert – Lucknow</p>
-  </section>
-
-  <!-- About -->
-  <section id="about" class="container py-5">
-    <div class="card">
-      <h2 class="section-title">About Me</h2>
-      <p>I am Arvind Kumar Bharti, a dedicated telecom service provider from Lucknow. I run a Jio POS with lakhs of rupees in monthly transactions and specialize in SIM sales, activations, and mobile number portability (MNP). My goal is to serve customers with fast and efficient services.</p>
+<!-- Testimonials -->
+<section id="testimonials" class="py-5 container">
+  <h2 class="section-title">Customer Testimonials</h2>
+  <div class="row g-3">
+    <div class="col-md-4">
+      <div class="card p-3">
+        <p>"Very fast and smooth experience. Highly professional." – R. Singh</p>
+      </div>
     </div>
-  </section>
-
-  <!-- Services -->
-  <section id="services" class="container py-5">
-    <div class="card">
-      <h2 class="section-title">Our Services</h2>
-      <ul class="list-disc ms-4">
-        <li>New Jio SIM Sales & Activation</li>
-        <li>Mobile Number Portability (MNP)</li>
-        <li>Recharge & Customer Support</li>
-        <li>Digital KYC and Verification</li>
-      </ul>
+    <div class="col-md-4">
+      <div class="card p-3">
+        <p>"Best service in the area. No waiting time!" – K. Sharma</p>
+      </div>
     </div>
-  </section>
-
-  <!-- Vision and Mission -->
-  <section id="vision" class="container py-5">
-    <div class="card">
-      <h2 class="section-title">Our Vision & Mission</h2>
-      <p><strong>Vision:</strong> To become a trusted telecom service brand for every mobile user in India, starting from Lucknow.</p>
-      <p class="mt-2"><strong>Mission:</strong> Offer reliable, quick and friendly telecom services to support people’s communication needs affordably and professionally.</p>
+    <div class="col-md-4">
+      <div class="card p-3">
+        <p>"Got my Jio SIM ported within 24 hours. Great job!" – A. Verma</p>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Journey -->
-  <section id="journey" class="container py-5">
-    <div class="card">
-      <h2 class="section-title">Our Journey</h2>
-      <ul class="list-disc ms-4">
-        <li>2018 – Started local SIM sales in Lucknow</li>
-        <li>2019 – Partnered with Jio officially</li>
-        <li>2021 – Hit 10,000+ activations milestone</li>
-        <li>2024 – Launched GR Telecom Services brand</li>
-      </ul>
+<!-- FAQ -->
+<section id="faq" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <div class="accordion" id="faqAccordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1">
+            What documents are required for SIM activation?
+          </button>
+        </h2>
+        <div id="faq1" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            Aadhaar card and one passport-size photograph.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">
+            How long does MNP take?
+          </button>
+        </h2>
+        <div id="faq2" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Usually 2 to 3 working days after submission.
+          </div>
+        </div>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Testimonials -->
-  <section id="testimonials" class="container py-5">
-    <div class="card">
-      <h2 class="section-title">What Our Customers Say</h2>
-      <blockquote>"Fast and smooth process. Very professional." – R. Singh</blockquote>
-      <blockquote>"Best service in our locality!" – K. Sharma</blockquote>
-      <blockquote>"Highly recommended for Jio MNP." – A. Verma</blockquote>
-    </div>
-  </section>
+<!-- Contact -->
+<section id="contact" class="py-5 container">
+  <h2 class="section-title">Contact Details</h2>
+  <p><strong>Phone:</strong> +91 XXXXX XXXXX</p>
+  <p><strong>Email:</strong> your@email.com</p>
+  <p><strong>Location:</strong> Near [Chauraha Name], Lucknow</p>
+</section>
 
-  <!-- FAQ -->
-  <section id="faq" class="container py-5">
-    <div class="card">
-      <h2 class="section-title">Frequently Asked Questions</h2>
-      <p><strong>Q:</strong> What documents are needed for SIM activation?<br>
-      <strong>A:</strong> Aadhaar Card + Passport-size Photo.</p>
-      <p class="mt-3"><strong>Q:</strong> How long does the porting process take?<br>
-      <strong>A:</strong> Generally 2-3 days after verification.</p>
-    </div>
-  </section>
+<!-- Footer -->
+<footer>
+  &copy; 2025 GR Telecom Services | Site designed by ProgrammerKR
+</footer>
 
-  <!-- Contact -->
-  <section id="contact" class="container py-5">
-    <div class="card">
-      <h2 class="section-title">Contact Us</h2>
-      <p><strong>Phone:</strong> +91 XXXXX XXXXX</p>
-      <p><strong>Email:</strong> example@email.com</p>
-      <p><strong>Location:</strong> Near XYZ Chauraha, Lucknow, Uttar Pradesh</p>
-    </div>
-  </section>
-
-  <!-- Map -->
-  <section class="container py-5">
-    <div class="card">
-      <h2 class="section-title">Our Location</h2>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="250" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    &copy; 2025 GR Telecom Services | Site by ProgrammerKR using ProXtyle
-  </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-                                                       </html>
+</html>
